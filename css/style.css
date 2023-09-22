@@ -131,6 +131,13 @@ img {
  /* tablet */
  @media screen and (max-width: 768px) {
     .container {
-        width: 100vw;
+        width: 100%;
+    }
+ }
+
+ @media screen and (max-width: 480px) {
+    .row{
+        flex-direction: column;
+        align-items: center;
     }
  }
