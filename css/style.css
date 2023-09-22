@@ -127,6 +127,12 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+ /* bonus between 768 and 1160 */
+ @media screen and (max-width: 1160px ) {
+    .container {
+        width: 100%;
+    }
+ }
 
  /* tablet */
  @media screen and (max-width: 768px) {
@@ -166,6 +172,12 @@ img {
 
 
      /* modified last section column-width */
+
+     h2.text-center{
+        width: 80%;
+        margin: 0 auto 10%;
+        align-self: center;
+     }
      .why-us .col-right{
         width: 80%;
         padding: 1rem;
@@ -180,3 +192,5 @@ img {
     }
     
  }
+
+ 
