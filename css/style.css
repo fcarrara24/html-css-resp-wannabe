@@ -158,8 +158,8 @@ img {
    
 
     /* central section */
-    .row:nth-child(2){
-        width: 100%;
+    .steps{
+        margin-bottom: 0;
     }
     .steps .col{
         width: 90%;
@@ -167,9 +167,9 @@ img {
         padding: 1rem;
         
     }
-   
-  
-
+    .row:nth-child(2){
+        width: 100%;
+    }
 
      /* modified last section column-width */
 
@@ -189,6 +189,14 @@ img {
     }
     li > p{
         margin: 5% 0 10%;
+    }
+    .why-us{
+        /* changing background color in why us */
+        margin-bottom: 0;
+        background-color: #222222;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+       
     }
     
  }
