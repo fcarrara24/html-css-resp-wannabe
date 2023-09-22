@@ -127,6 +127,10 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+ ::-webkit-scrollbar {
+    display: none;
+  }
+
  /* bonus between 768 and 1160 */
  @media screen and (max-width: 1160px ) {
     .container {
