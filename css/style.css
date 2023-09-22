@@ -140,4 +140,18 @@ img {
         flex-direction: column;
         align-items: center;
     }
+  
+   
+
+
+    /* modified last section column-width */
+    .why-us .col-right{
+        width: 100%;
+    }
+
+    .steps .col{
+        width: 80%;
+        /* constant padding for all images */
+        padding: 1rem;
+    }
  }
