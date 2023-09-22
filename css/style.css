@@ -141,17 +141,42 @@ img {
         align-items: center;
     }
   
+    p{
+        margin: 5% 10% 10%;
+    }
+   /* first section */
+
+   .lessons .col{
+    width: 100%;
+   }
    
 
-
-    /* modified last section column-width */
-    .why-us .col-right{
+    /* central section */
+    .row:nth-child(2){
         width: 100%;
     }
-
     .steps .col{
-        width: 80%;
+        width: 90%;
         /* constant padding for all images */
         padding: 1rem;
+        
     }
+   
+  
+
+
+     /* modified last section column-width */
+     .why-us .col-right{
+        width: 80%;
+        padding: 1rem;
+    }
+
+    .why-us .col-left{
+        width: 80%;
+        padding: 1rem;
+    }
+    li > p{
+        margin: 5% 0 10%;
+    }
+    
  }
